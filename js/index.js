@@ -7,11 +7,11 @@ function play() {
   let message;
 
   if (userNumber > number) {
-    message = "Twój numer jest za duży🤔";
+    message = "Twój numer <br> jest za duży🤔";
   } else if (userNumber < number) {
-    message = "Twój numer jest za mały🧐";
+    message = "Twój numer <br> jest za mały🧐";
   } else {
-    message = "Gratulacje, to właściwa cyfra😍";
+    message = "Gratulacje,<br> to właściwa cyfra😍";
   }
 
   document.getElementById("message").innerHTML = message;
